@@ -13,35 +13,17 @@ body {
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
-    font-weight: 300;
-    color: #333;
-}
-
-h4 {
-	color: white;
-	font-weight: 400;
-}
-
-h1, h2, h3 {
+h1 {
     font-family: 'Raleway',sans-serif;
     margin-top: 0px;
-    font-weight: 100;
+    font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 30px;
-}
-h1{
-	font-size: 60px;
-	color: white;
+    font-size: 60px;
+    color: white;
 }
 
-h2{ color: #dc7075;}
-a:hover, a:focus {
-    -webkit-transition-duration: 0.4s;
-       -moz-transition-duration: 0.4s;
-            transition-duration: 0.4s;
-}
+
 /******************************************************************************************************************************
 HEADER
 *******************************************************************************************************************************/
@@ -52,23 +34,7 @@ HEADER
     z-index: 2;
     padding: 80px 0;
 }
-.timer_box{
-    margin: 35px 24px;
-    display: inline-block;
-    padding: 20px 12px 0px 12px;
-    text-align: center;
-    width: 130px;
-    border-radius: 50%;
-    border: 4px solid rgba(255, 255, 255, .6);
-}
-.timer_box h1{
-    font-size: 48px;
-    margin-top: 5px;
-    margin-bottom: 0px;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: white;
-}
-.timer_box p{ margin-top: 0px;}
+
 #layer{
     background-color: rgba(0, 0, 0, .2);
     left: 0; top: 0;
@@ -80,20 +46,13 @@ HEADER
 #slider{
     width: 100%;
     position: fixed;
-    background-color: #2c3e50; 
+    background-color: #2c3e50;
     top: 0;
     left: 0;
     z-index: 0;
     padding:0;
 }
 
-.mt {
-	margin-top: 30px;
-}
-
-.centered {
-	text-align: center;
-}
 /******************************************************************************************************************************
 RESPONSIVE
 *******************************************************************************************************************************/
@@ -170,7 +129,7 @@ ANIMATIONS
 @-moz-keyframes GoIn {
     0%   {opacity: 0; -moz-transform: translateY(-2000px);}
     60%  {opacity: 1; -moz-transform: translateY(30px);}
-    80%  {-moz-transform: translateY(-10px);}               
+    80%  {-moz-transform: translateY(-10px);}
     100% {-moz-transform: translateY(0);}
 }
 @-o-keyframes GoIn {
@@ -181,7 +140,7 @@ ANIMATIONS
 }
 @keyframes GoIn {
     0%   {opacity: 0; transform: translateY(-2000px);}
-    60%  {opacity: 1; transform: translateY(30px);}   
+    60%  {opacity: 1; transform: translateY(30px);}
     80%  {transform: translateY(-10px);}
     100% {transform: translateY(0);}
 }
@@ -599,7 +558,7 @@ PLUGINS
     bottom: 0;
     background-color: rgba(255, 255, 255, .6);
 }
-.tp-bullets {   
+.tp-bullets {
     z-index:1000; position:absolute;
     left: 90% !important;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -608,16 +567,16 @@ PLUGINS
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;
 }
-.tp-bullets.simplebullets.round .bullet {   
+.tp-bullets.simplebullets.round .bullet {
     cursor:pointer;
-    position:relative;  
+    position:relative;
     border: 3px solid rgba(255, 255, 255, .6);
-    width:20px; 
-    height:20px;  
-    margin-right:0px; 
-    float:left; 
+    width:20px;
+    height:20px;
+    margin-right:0px;
+    float:left;
     border-radius: 50%;
-    margin-top:-10px; 
+    margin-top:-10px;
     margin-left:3px;
 }
 .tp-bullets.simplebullets.round .bullet.selected{
